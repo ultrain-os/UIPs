@@ -1,19 +1,16 @@
 # UIPs
---
 
 Ultrain Improvement Proposals (UIPs) describe standards for the Ultrain platform, including core protocol specifications, client APIs, and contract standards.
 
 # Contributing
---
 
-1. Review [UIP-1](UIPs/UIPS/UIP-1.md).
+1. Review [UIP-1](UIPS/UIP-1.md).
 2. Fork the repository by clicking "Fork" in the top right.
 3. Add your UIP to you fork of the repository, There is a [template UIP here](UIP-X.md).
 4. Submit a Pull Request to Ultrain's [UIPs repository](https://github.com/ultrain-os/UIPs).
 
 
 # UIP Types
---
 The belows are UIP types:
 
 - **`Standard Track`** A Standard Track UIP describes any change that affects most or all Ultrain OS implements, such as a change to the network protocal, proposed application standards/conventions.
