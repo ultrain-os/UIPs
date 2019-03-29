@@ -1,14 +1,11 @@
 ---
-
 UIP: 06
 title: UIP-06 Token Standard
 author: pengliao@live.cn
 type: Standards Track
-status:Active
+status: Active
 created: 2018-06-01
-
 ---
-
 
 ## Simple Summary
 
@@ -25,7 +22,7 @@ A standard interface allows any tokens on Ultrain to be re-used by other applica
 
 ## Specification
 
-### Basic Method
+### UIP06
 
 	/**
 	 * Create a fungible token

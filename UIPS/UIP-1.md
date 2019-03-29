@@ -1,6 +1,11 @@
-UIP | title | status | type | author | created
-----|---|---|---|---|---|---|---
-1| UIP Purpose and Guidelines| Active| Meta| Ultrain core team | 2019-01-30
+---
+UIP: 1
+title: UIP Purpose and Guidelines
+author: pengliao@live.cn
+type: Meta
+status:Active
+created: 2018-06-01
+---
 
 # What is an UIP?
 --
@@ -45,12 +50,12 @@ Each status change is requested by the UIP author and reviewed by the UIP editor
 * **Draft** -- Once the first draft has been merged, you may submit follow-up pull requests with further changes to your draft until such point as you believe the UIP to be mature and ready to proceed to the next status. An UIP in draft status must be implemented to be considered for promotion to the next status (ignore this requirement for core UIPs).
   * :arrow_right: Last Call -- If agreeable, the UIP editor will assign Last Call status and set a review end date (`review-period-end`), normally 14 days later.
   * :x: Last Call -- A request for Last Call status will be denied if material changes are still expected to be made to the draft. We hope that UIPs only enter Last Call once, so as to avoid unnecessary noise on the RSS feed.
-* **Last Call** -- This UIP will listed prominently on the https://UIPs.ethereum.org/ website (subscribe via RSS at [last-call.xml](/last-call.xml)).
+* **Last Call** -- This UIP will listed prominently on the developer website (subscribe via RSS at [last-call.xml](/last-call.xml)).
   * :x: -- A Last Call which results in material changes or substantial unaddressed technical complaints will cause the UIP to revert to Draft.
   * :arrow_right: Accepted (Core UIPs only) -- A successful Last Call without material changes or unaddressed technical complaints will become Accepted.
   * :arrow_right: Final (Not core UIPs) -- A successful Last Call without material changes or unaddressed technical complaints will become Final.
-* **Accepted (Core UIPs only)** -- This UIP is in the hands of the Ethereum client developers.  Their process for deciding whether to encode it into their clients as part of a hard fork is not part of the UIP process.
-  * :arrow_right: Final -- Standards Track Core UIPs must be implemented in at least three viable Ethereum clients before it can be considered Final. When the implementation is complete and adopted by the community, the status will be changed to “Final”.
+* **Accepted (Core UIPs only)** -- This UIP is in the hands of the Ultrain client developers.  Their process for deciding whether to encode it into their clients as part of a hard fork is not part of the UIP process.
+  * :arrow_right: Final -- Standards Track Core UIPs must be implemented in at least three viable Ultrain clients before it can be considered Final. When the implementation is complete and adopted by the community, the status will be changed to “Final”.
 * **Final** -- This UIP represents the current state-of-the-art. A Final UIP should only be updated to correct errata.
 
 Other exceptional statuses include:
@@ -70,8 +75,8 @@ Each UIP should have the following parts:
 - Preamble - RFC 822 style headers containing metadata about the UIP, including the UIP number, a short descriptive title (limited to a maximum of 44 characters), and the author details. See below for details.
 - Simple Summary - “If you can’t explain it simply, you don’t understand it well enough.” Provide a simplified and layman-accessible explanation of the UIP.
 - Abstract - a short (~200 word) description of the technical issue being addressed.
-- Motivation (*optional) - The motivation is critical for UIPs that want to change the Ethereum protocol. It should clearly explain why the existing protocol specification is inadequate to address the problem that the UIP solves. UIP submissions without sufficient motivation may be rejected outright.
-- Specification - The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current Ethereum platforms (cpp-ethereum, go-ethereum, parity, ethereumJ, ethereumjs-lib, and others.
+- Motivation (*optional) - The motivation is critical for UIPs that want to change the Ultrain protocol. It should clearly explain why the existing protocol specification is inadequate to address the problem that the UIP solves. UIP submissions without sufficient motivation may be rejected outright.
+- Specification - The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current Ultrain platforms (ultrain-core, u3.js-lib, and others.
 - Rationale - The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.
 - Backwards Compatibility - All UIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The UIP must explain how the author proposes to deal with these incompatibilities. UIP submissions without a sufficient backwards compatibility treatise may be rejected outright.
 - Test Cases - Test cases for an implementation are mandatory for UIPs that are affecting consensus changes. Other UIPs can choose to include links to test cases if applicable.
@@ -151,7 +156,7 @@ Merge the corresponding pull request
 
 Send a message back to the UIP author with the next step.
 
-Many UIPs are written and maintained by developers with write access to the Ethereum codebase. The UIP editors monitor UIP changes, and correct any structure, grammar, spelling, or markup mistakes we see.
+Many UIPs are written and maintained by developers with write access to the Ultrain codebase. The UIP editors monitor UIP changes, and correct any structure, grammar, spelling, or markup mistakes we see.
 
 The editors don't pass judgment on UIPs. We merely do the administrative & editorial part.
 
