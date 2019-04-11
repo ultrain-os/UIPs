@@ -89,6 +89,9 @@ A standard interface allows any tokens on Ultrain to be re-used by other applica
 	 * @return return the balance
 	 */
 	balanceOf(owner: account_name, sym_name: string): Asset;
+	
+	
+	
 
 ## Implementation
 

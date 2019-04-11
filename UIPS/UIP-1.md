@@ -84,9 +84,6 @@ Each UIP should have the following parts:
 - Copyright Waiver - All UIPs must be in the public domain. See the bottom of this UIP for an example copyright waiver.
 
 
-
-
-
 # UIP Formats and Templates
 UIPs should be written in [markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/) format. Image files should be included in a subdirectory of the `assets` folded for that UIP as follow: `assets/uip-X`(for uip X). When linking to an image in the UIP, use relative links such as `../asserts/UIP-X/image.png`.
 
@@ -136,8 +133,9 @@ If you are interested in assuming ownership of an UIP, send a message asking to 
 --
 The Current UIP editors are
 
+` * NefarioDr(@NefarioDr)`
 
-
+` * Liao Peng(@LiaoPeng)`
 
 # UIP Editor Responsibilities
 --
