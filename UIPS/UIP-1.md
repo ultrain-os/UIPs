@@ -8,20 +8,15 @@ created: 2018-06-01
 ---
 
 # What is an UIP?
---
-
 UIP is short for `Ultrain-Os Imporvement Proposal`. An UIP document providing information and guidelines to the Ultrain community, or describing a new feature for Ultrain or its processes or environment. The UIP should provide a concise technical specification of the feature and a rationale for the feature. The UIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
 # UIP Rationale
---
-
 We intend UIPs to be the primary mechanisms for proposing new features, for collecting community technical input on an issue, and for documenting the design decisions that have gone into Ultrain. Because the UIPs are maintained as text files in a versioned repository, their revision hisUIPtory is the historical record of the feature proposal.
 
 For UIP implementers, UIPs are a convenient way to track the progress of their implementation. Ideally each implementation maintainer would list the UIPs that they have implemented. This will give end users a convenient way to know the current status of a given implementation or library.
 
 
 # UIP Types
---
 The belows are UIP types:
 
 - **`Standard Track`** A Standard Track UIP describes any change that affects most or all Ultrain OS implements, such as a change to the network protocal, proposed application standards/conventions.
@@ -29,7 +24,6 @@ The belows are UIP types:
 - **`Meta`** A meta UIP describes a process surrounding Ultrain OS or proposes a change to(or an event in) a process.
 
 # UIP Work Flow
---
 
 Parties involved in the process are you, the champion or *UIP author*, the [*UIP editors*](#uip-editors)).
 
@@ -69,7 +63,6 @@ Other exceptional statuses include:
 
 
 # What belongs in a successful UIP?
---
 Each UIP should have the following parts:
 
 - Preamble - RFC 822 style headers containing metadata about the UIP, including the UIP number, a short descriptive title (limited to a maximum of 44 characters), and the author details. See below for details.
@@ -119,18 +112,15 @@ Headers that permit lists must separate elements with commas.
 Headers requiring dates will alyws do so in the format of ISO 8610(yyyy-mm--dd)
 
 # Auxiliary Files
---
 UIPs may include auxiliary files such as diagrams. Such files must be named UIP-XXXX-Y.ext, where “XXXX” is the UIP number, “Y” is a serial number (starting at 1), and “ext” is replaced by the actual file extension (e.g. “png”).
 
 
 # Transferring UIP Ownership
---
 It occasionally becomes necessary to transfer ownership of UIPs to a new champion. In general, we'd like to retain the original author as a co-author of the transferred UIP, but that's really up to the original author. A good reason to transfer ownership is because the original author no longer has the time or interest in updating it or following through with the UIP process, or has fallen off the face of the 'net (i.e. is unreachable or isn't responding to email). A bad reason to transfer ownership is because you don't agree with the direction of the UIP. We try to build consensus around an UIP, but if that's not possible, you can always submit a competing UIP.
 
 If you are interested in assuming ownership of an UIP, send a message asking to take over, addressed to both the original author and the UIP editor. If the original author doesn't respond to email in a timely manner, the UIP editor will make a unilateral decision (it's not like such decisions can't be reversed :)).
 
 # UIP Editors
---
 The Current UIP editors are
 
 ` * NefarioDr(@NefarioDr)`
@@ -138,7 +128,6 @@ The Current UIP editors are
 ` * Liao Peng(@LiaoPeng)`
 
 # UIP Editor Responsibilities
---
 For each new UIP that comes in, an editor does the following:
 
 Read the UIP to check if it is ready: sound and complete. The ideas must make technical sense, even if they don't seem likely to get to final status.
