@@ -9,14 +9,6 @@ Ultrain Improvement Proposals (UIPs) describe standards for the Ultrain platform
 3. Add your UIP to you fork of the repository, There is a [template UIP here](UIP-X.md).
 4. Submit a Pull Request to Ultrain's [UIPs repository](https://github.com/ultrain-os/UIPs).
 
-
-# UIP Types
-The belows are UIP types:
-
-- **`Standard Track`** A Standard Track UIP describes any change that affects most or all Ultrain OS implements, such as a change to the network protocal, proposed application standards/conventions.
-- **`Informational`** An informational UIP describes an Ultrain OS design issue.
-- **`Meta`** A meta UIP describes a process surrounding Ultrain OS or proposes a change to(or an event in) a process.
-
 # UIP status Terms
 
 * Draft - an UIP that is undergoing rapid iteration and changes

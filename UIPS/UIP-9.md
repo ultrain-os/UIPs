@@ -3,9 +3,8 @@ UIP: 09
 title: UIP-09 Token Standard
 author: pengliao@live.cn
 type: Standards Track
-status: Active
+status: accepted
 created: 2018-06-01
-
 ---
 
 ## Simple Summary

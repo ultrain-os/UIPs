@@ -3,15 +3,15 @@ UIP: 1
 title: UIP Purpose and Guidelines
 author: pengliao@live.cn
 type: Meta
-status:Active
+status: Active
 created: 2018-06-01
 ---
 
 # What is an UIP?
-UIP is short for `Ultrain-Os Imporvement Proposal`. An UIP document providing information and guidelines to the Ultrain community, or describing a new feature for Ultrain or its processes or environment. The UIP should provide a concise technical specification of the feature and a rationale for the feature. The UIP author is responsible for building consensus within the community and documenting dissenting opinions.
+UIP is short for `Ultrain-Os Improvement Proposal`. An UIP document providing information and guidelines to the Ultrain community, or describing a new feature for Ultrain or its processes or environment. The UIP should provide a concise technical specification of the feature and a rationale for the feature. The UIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
 # UIP Rationale
-We intend UIPs to be the primary mechanisms for proposing new features, for collecting community technical input on an issue, and for documenting the design decisions that have gone into Ultrain. Because the UIPs are maintained as text files in a versioned repository, their revision hisUIPtory is the historical record of the feature proposal.
+We intend UIPs to be the primary mechanisms for proposing new features, for collecting community technical input on an issue, and for documenting the design decisions that have gone into Ultrain. Because the UIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
 
 For UIP implementers, UIPs are a convenient way to track the progress of their implementation. Ideally each implementation maintainer would list the UIPs that they have implemented. This will give end users a convenient way to know the current status of a given implementation or library.
 

@@ -3,7 +3,7 @@ UIP: 06
 title: UIP-06 Token Standard
 author: pengliao@live.cn
 type: Standards Track
-status: Active
+status: accepted
 created: 2018-06-01
 ---
 
@@ -37,6 +37,7 @@ A standard interface allows any tokens on Ultrain to be re-used by other applica
 	/**
 	 * Issue token to 'to' account
 	 * 
+	 * Having the create
 	 * @param to the token receiver
 	 * @param quantity the quantity of the token
 	 * @param memo the memo for issue action
@@ -50,7 +51,7 @@ A standard interface allows any tokens on Ultrain to be re-used by other applica
 	 * @param from the token sender
 	 * @param to the token recevier
 	 * @param quantity the quantity of the token asset
-	 * @param memeo the memeo for transfer action
+	 * @param memo the memo for transfer action
 	 */
 	transfer(from: account_name, to: account_name, quantity: Asset, memo: string): void;
 
