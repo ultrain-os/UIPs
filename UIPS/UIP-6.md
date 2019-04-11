@@ -3,7 +3,7 @@ UIP: 06
 title: UIP-06 Token Standard
 author: pengliao@live.cn
 type: Standards Track
-status: accepted
+status: Accepted
 created: 2018-06-01
 ---
 
@@ -27,7 +27,7 @@ A standard interface allows any tokens on Ultrain to be re-used by other applica
 	/**
 	 * Create a fungible token
 	 * 
-	 * @param issuer the tokne issurer
+	 * @param issuer the token issuer
 	 * @param maximum_supply the total token supply amouont.
 	 * eg: "1000.00 UGAS" mean that we create 1000.00 UGAS and it's precision is .00.
 	 * 
@@ -37,7 +37,6 @@ A standard interface allows any tokens on Ultrain to be re-used by other applica
 	/**
 	 * Issue token to 'to' account
 	 * 
-	 * Having the create
 	 * @param to the token receiver
 	 * @param quantity the quantity of the token
 	 * @param memo the memo for issue action

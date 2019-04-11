@@ -3,7 +3,7 @@ UIP: 09
 title: UIP-09 Token Standard
 author: pengliao@live.cn
 type: Standards Track
-status: accepted
+status: Accepted
 created: 2018-06-01
 ---
 
@@ -36,7 +36,7 @@ In general, all houses are distinct and no two kittens are alike. NFTs are *dist
 	/**
 	 * Create a non-fungbile token
 	 * 
-	 * @param issuer the tokne issurer who can issue the token
+	 * @param issuer the token issuer who can issue the token
 	 * @param maximum_supply the total token supply amouont, it contain supply amount and symbol
 	 * eg: '1000 UGAS' represent that create token named UGAS and the max supply is 1000.
 	 */
